@@ -2,7 +2,7 @@
 Compile python code to apk file with kivy and buildozer, this is my process in building an android app from python in 2025.
 
 main.py
-'''python
+```python
 import kivy
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
@@ -26,4 +26,4 @@ class NumRandom(App):
 
 numRandom = NumRandom()
 numRandom.run()
-'''
+```
