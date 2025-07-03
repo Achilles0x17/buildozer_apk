@@ -8,7 +8,7 @@ from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 import random
 
-<!-- note that the version should be below 2.3.1 -->
+#note that the version should be below 2.3.1
 kivy.require('2.3.0')
 
 class MyRoot(BoxLayout):
