@@ -1,10 +1,11 @@
 # buildozer_apk
 Compile python code to apk file with kivy and buildozer, this is my process in building an android app from python in 2025.
 
+credits: https://youtu.be/6gNpSuE01qE?si=fo1gIqspaEleucDd
 
 <br>
 
-main.py
+Example: main.py
 ```python
 import kivy
 from kivy.app import App
@@ -29,4 +30,7 @@ class NumRandom(App):
 
 numRandom = NumRandom()
 numRandom.run()
+```
+```
+
 ```
