@@ -34,7 +34,7 @@ numRandom = NumRandom()
 numRandom.run()
 ```
 <br>
-numrandom.kv    (filename must be the same as class name)
+`numrandom.kv   (filename must be the same as class name)`
 
 ```
 <MyRoot>:
