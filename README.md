@@ -33,6 +33,8 @@ class NumRandom(App):
 numRandom = NumRandom()
 numRandom.run()
 ```
+<br>
+numrandom.kv (name must be the same as class name)
 ```
 <MyRoot>:
 	random_label: random_label
