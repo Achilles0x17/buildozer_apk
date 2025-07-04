@@ -1,6 +1,8 @@
 # buildozer_apk
 Compile python code to apk file with kivy and buildozer, this is my process in building an android app from python in 2025.
 
+<br>
+
 credits: https://youtu.be/6gNpSuE01qE?si=fo1gIqspaEleucDd
 
 <br>
@@ -32,5 +34,23 @@ numRandom = NumRandom()
 numRandom.run()
 ```
 ```
+<MyRoot>:
+	random_label: random_label
+
+	BoxLayout:
+		orientation: "vertical"
+		Label:
+			text: "RandomNumber"
+			font_size: 64
+			color: 0.92, 0.45, 0, 1
+		Label:
+			id: random_label
+			text: "-"
+			font_size: 64
+		Button:
+			text: "Gerenate"
+			font_size: 32
+			size: 100, 50
+			on_press: root.generate_number()
 
 ```
